@@ -68,7 +68,7 @@
                         </tr>
 
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">2</th>
                             <td>Yanti</td>
                             <td>yanti@example.com</td>
                             <td>08123456789</td>
@@ -87,7 +87,7 @@
                         </tr>
 
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">3</th>
                             <td>Yantu</td>
                             <td>yantu@example.com</td>
                             <td>08123456789</td>
