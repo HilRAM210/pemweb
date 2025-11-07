@@ -1,7 +1,6 @@
 @extends('layouts.main')
 
 @section('content')
-    {{-- Hero Section --}}
     <section class="hero-section text-center">
         <div class="container">
             <h1 class="display-4 fw-bold mb-4">Tentang Kami</h1>
@@ -9,7 +8,6 @@
         </div>
     </section>
 
-    {{-- Content Section --}}
     <section class="container mb-5">
         <div class="text-center mb-5">
             <h2 class="fw-bold">Misi Kami</h2>

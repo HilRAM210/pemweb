@@ -33,11 +33,6 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="alamat" class="form-label fw-bold">Alamat</label>
-                            <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Contoh: Jl. Merdeka No. 10, Jakarta"></textarea>
-                        </div>
-
-                        <div class="mb-3">
                             <label for="grup" class="form-label fw-bold">Grup</label>
                             <select class="form-select" id="grup" name="grup">
                                 <option value="" selected disabled>Pilih grup...</option>

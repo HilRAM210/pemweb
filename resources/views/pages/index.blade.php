@@ -53,13 +53,13 @@
                             <td>Yanto</td>
                             <td>yanto@example.com</td>
                             <td>08123456789</td>
-                            <td><span class="badge bg-primary">Pekerjaan</span></td>
+                            <td><span class="badge bg-primary">Teman</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
 
-                                <form action="#" method="POST" class="d-inline">
+                                <form action="#" method="#" class="d-inline">
                                     <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
                                         <i class="bi bi-trash"></i>
                                     </button>
@@ -72,13 +72,13 @@
                             <td>Yanti</td>
                             <td>yanti@example.com</td>
                             <td>08123456789</td>
-                            <td><span class="badge bg-primary">Pekerjaan</span></td>
+                            <td><span class="badge bg-success">Keluarga</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
 
-                                <form action="#" method="POST" class="d-inline">
+                                <form action="#" method="#" class="d-inline">
                                     <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
                                         <i class="bi bi-trash"></i>
                                     </button>
@@ -91,13 +91,13 @@
                             <td>Yantu</td>
                             <td>yantu@example.com</td>
                             <td>08123456789</td>
-                            <td><span class="badge bg-primary">Pekerjaan</span></td>
+                            <td><span class="badge bg-info">Pekerjaan</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
 
-                                <form action="#" method="POST" class="d-inline">
+                                <form action="#" method="#" class="d-inline">
                                     <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
                                         <i class="bi bi-trash"></i>
                                     </button>

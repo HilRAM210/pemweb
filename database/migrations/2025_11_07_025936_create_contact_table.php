@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('nama');
             $table->string('kontak');
             $table->string('email')->nullable()->unique();
-            $table->text('alamat')->nullable();
             $table->string('grup')->nullable();
 
             $table->timestamps();
