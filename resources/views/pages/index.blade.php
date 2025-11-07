@@ -12,16 +12,30 @@
         
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="fw-bold mb-0">Semua Kontak</h2>
-            <a href="{{-- {{ route('kontak.create') }} --}}" class="btn btn-primary d-flex align-items-center">
+            <a href="/create" class="btn btn-primary d-flex align-items-center">
                 <i class="bi bi-plus-circle me-2"></i>
                 Tambah Kontak
             </a>
         </div>
 
         <div class="card card-table p-4">
+
+            <form action="" method="GET" class="mb-4">
+                <div class="input-group">
+                    <input type="text" 
+                        name="search" 
+                        class="form-control" 
+                        placeholder="Cari kontak (nama, email, no. telepon...)" 
+                        value="{{ request('search') }}">
+                    
+                    <button class="btn btn-primary" type="submit">
+                        <i class="bi bi-search"></i> Cari
+                    </button>
+                </div>
+            </form>
+            
             <div class="table-responsive">
                 <table class="table table-hover align-middle">
-                    {{-- Table Head --}}
                     <thead class="table-light">
                         <tr>
                             <th scope="col">No.</th>
@@ -32,56 +46,64 @@
                             <th scope="col" class="text-center">Aksi</th>
                         </tr>
                     </thead>
-                
+                    
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Budi</td>
-                            <td>budi@example.com</td>
+                            <td>Yanto</td>
+                            <td>yanto@example.com</td>
                             <td>08123456789</td>
                             <td><span class="badge bg-primary">Pekerjaan</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Hapus">
-                                    <i class="bi bi-trash"></i>
-                                </a>
+
+                                <form action="#" method="POST" class="d-inline">
+                                    <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
 
                         <tr>
-                            <th scope="row">2</th>
-                            <td>Ani</td>
-                            <td>ani@example.com</td>
-                            <td>08987654321</td>
-                            <td><span class="badge bg-success">Keluarga</span></td>
+                            <th scope="row">1</th>
+                            <td>Yanti</td>
+                            <td>yanti@example.com</td>
+                            <td>08123456789</td>
+                            <td><span class="badge bg-primary">Pekerjaan</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Hapus">
-                                    <i class="bi bi-trash"></i>
-                                </a>
+
+                                <form action="#" method="POST" class="d-inline">
+                                    <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
 
                         <tr>
-                            <th scope="row">3</th>
-                            <td>Yono</td>
-                            <td>citra@example.com</td>
-                            <td>08555123456</td>
-                            <td><span class="badge bg-info">Teman</span></td>
+                            <th scope="row">1</th>
+                            <td>Yantu</td>
+                            <td>yantu@example.com</td>
+                            <td>08123456789</td>
+                            <td><span class="badge bg-primary">Pekerjaan</span></td>
                             <td class="text-center">
                                 <a href="#" class="btn btn-warning btn-sm me-1" title="Edit">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Hapus">
-                                    <i class="bi bi-trash"></i>
-                                </a>
+
+                                <form action="#" method="POST" class="d-inline">
+                                    <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
-                        
                     </tbody>
                 </table>
             </div>
